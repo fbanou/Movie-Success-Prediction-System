@@ -6,14 +6,14 @@ A **machine learning model** built to predict the success of movies based on var
 
 ## ✨ Features
 
-- 💰 **Predict Movie Success**: Classify movies as "successful" or "not successful" based on features such as budget, genre, revenue, and more.
-- 📊 **Data Preprocessing**: Clean and preprocess movie data from the Kaggle **The Movies Dataset**.
-- 🧠 **Neural Network Model**: The model is built using **Keras** and a fully connected neural network with **Dropout** and **ReLU** activation functions.
-- 📈 **Evaluation**: Uses metrics like accuracy and loss to evaluate model performance.
+- 💰 **Predict Movie Success**: Classify movies as "successful" or "not successful" based on features such as budget, genre, revenue and more
+- 📊 **Data Preprocessing**: Clean and preprocess movie data from the Kaggle **The Movies Dataset**
+- 🧠 **Neural Network Model**: The model is built using **Keras** and a fully connected neural network with **Dropout** and **ReLU** activation functions
+- 📈 **Evaluation**: Uses metrics like accuracy and loss to evaluate model performance
 
 ---
 
-## 🏗️ Tech Stack
+## ⚙ Technologies
 
 - **Language**: Python  
 - **Libraries**: TensorFlow, Keras, scikit-learn, pandas, numpy  
