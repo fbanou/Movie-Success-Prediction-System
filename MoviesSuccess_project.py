@@ -12,7 +12,6 @@ from keras.callbacks import EarlyStopping
 import tkinter as tk
 from tkinter import ttk
 from tkinter import messagebox
-import numpy as np
 import sys
 from sklearn.preprocessing import StandardScaler
 
