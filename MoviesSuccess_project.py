@@ -1,19 +1,20 @@
+import sys
 import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import confusion_matrix
 from sklearn.metrics import classification_report
+from sklearn.datasets import make_classification
+from sklearn.preprocessing import StandardScaler
 from keras.models import Sequential
 from keras.layers import Dense, Dropout
 from keras.callbacks import EarlyStopping
-from sklearn.datasets import make_classification
 from keras.callbacks import EarlyStopping
 import tkinter as tk
 from tkinter import ttk
 from tkinter import messagebox
-import sys
-from sklearn.preprocessing import StandardScaler
+from PIL import Image, ImageTk
 
 df = pd.read_csv("movies_metadata.csv")
 
@@ -145,14 +146,6 @@ plt.show()
 preds = np.round(model.predict(X_test),0)
 confusion_matrix(y_test, preds)
 print(classification_report(y_test, preds))
-
-import tkinter as tk
-from tkinter import ttk
-from tkinter import messagebox
-import numpy as np
-import sys
-from sklearn.preprocessing import StandardScaler
-from PIL import Image, ImageTk
 
 # Function to handle the prediction based on user inputs
 def predict_movie_success():
