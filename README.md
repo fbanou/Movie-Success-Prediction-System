@@ -16,6 +16,6 @@ A **machine learning model** built to predict the success of movies based on var
 ## ⚙ Technologies
 
 - **Language**: Python  
-- **Libraries**: TensorFlow, Keras, scikit-learn, pandas, numpy  
+- **Libraries**: Keras, sklearn, pandas, numpy  
 - **Machine Learning**: Neural Networks, Dropout, ReLU activation  
-- **Dataset**: Kaggle **The Movies Dataset** (includes over 45,000 movies)
+- **Dataset**: Kaggle **The Movies Dataset** 
