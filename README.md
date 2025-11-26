@@ -1,6 +1,6 @@
 # 🎬 Movie Success Prediction System
 
-A **machine learning model** built to predict the success of movies based on various features like budget, genre, popularity, and revenue. This system uses **neural networks** to predict whether a movie will be successful or not.
+A **machine learning model** built to predict the success of movies based on various features like budget, genre, popularity and revenue. This system uses **neural networks** to predict whether a movie will be successful or not.
 
 ---
 
